@@ -21,7 +21,7 @@ When using *Alfresco Enterprise*, customer credentials for [quay.io/alfresco](ht
 
 ## Using Volumes for local storage
 
-All Docker Compose templates provided in this project are not providing local storage using Docker Volumes. Enabling this feature can be done using a configuration like the following one.
+All Docker Compose templates provided in this project are not using local storage with Docker Volumes. Enabling this feature can be done using a configuration like the following one.
 
 ```
 activemq:
