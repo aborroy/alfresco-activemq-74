@@ -156,6 +156,7 @@ services:
           -Dcom.sun.management.jmxremote.host=0.0.0.0
           -Dcom.sun.management.jmxremote.local.only=false
     ports:
+      - "61616:61616"
       - "8161:8161"
       - "8162:8162"
       - "1099:1099"
