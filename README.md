@@ -16,6 +16,8 @@ Docker Compose templates for easy deployment and testing are provided in the fol
 
 When using *Alfresco Enterprise*, customer credentials for [quay.io/alfresco](https://quay.io/organization/alfresco) Docker Images are required.
 
+In addition, a sample project consuming topic `alfresco.repo.event2` from ActiveMQ is provided in [alfresco-java-sdk-sample](alfresco-java-sdk-sample).
+
 >> This project has been designed to test the integrations easily, deploying them in *prod* environments would require additional operations and resources.
 
 
